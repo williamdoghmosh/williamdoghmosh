@@ -1,158 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mohamed Doghmosh — Electronics & Communications Engineer</title>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b1322">
+<meta name="description" content="Mohamed Doghmosh — Electronics & Communications Engineer, broadcast engineering, systems integration, networking and automation.">
+<title>Mohamed Doghmosh | Engineering & Technology</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <style>
-  :root{
-    --bg:#0f1115; --card:#171a21; --line:#242a35;
-    --text:#e8ebf0; --muted:#9aa4b2; --accent:#4f9cf7;
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{background:var(--bg);color:var(--text);
-    font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    line-height:1.6;padding:0 20px}
-  .wrap{max-width:820px;margin:0 auto;padding:60px 0}
-  header{text-align:center;margin-bottom:50px}
-  header h1{font-size:2.4rem;letter-spacing:.5px}
-  header .role{color:var(--accent);font-size:1.1rem;margin-top:6px}
-  header .loc{color:var(--muted);margin-top:10px;font-size:.95rem}
-  .contact{margin-top:18px;display:flex;flex-wrap:wrap;gap:8px 20px;
-    justify-content:center;font-size:.92rem}
-  .contact a{color:var(--text);text-decoration:none}
-  .contact a:hover{color:var(--accent)}
-  section{background:var(--card);border:1px solid var(--line);
-    border-radius:14px;padding:26px 28px;margin-bottom:22px}
-  h2{font-size:1.15rem;color:var(--accent);margin-bottom:16px;
-    text-transform:uppercase;letter-spacing:1px}
-  .job{margin-bottom:20px}
-  .job:last-child{margin-bottom:0}
-  .job h3{font-size:1.05rem}
-  .job .meta{color:var(--muted);font-size:.9rem;margin:2px 0 8px}
-  .job ul{margin-left:18px;color:#cfd6df}
-  .job li{margin-bottom:4px}
-  .skills{display:flex;flex-wrap:wrap;gap:8px}
-  .skills span{background:#20252f;border:1px solid var(--line);
-    padding:6px 12px;border-radius:999px;font-size:.85rem;color:#cfd6df}
-  p.note{color:#cfd6df}
-  footer{text-align:center;color:var(--muted);font-size:.85rem;
-    margin-top:40px}
-  @media(max-width:600px){header h1{font-size:1.9rem}}
+:root{--bg:#08111e;--panel:#101d30;--panel2:#14243a;--ink:#edf4fa;--sub:#a6b6c8;--line:#29405b;--a:#6de4d1;--b:#91aefe;--max:1150px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.7 system-ui,-apple-system,Segoe UI,Arial,sans-serif}a{color:inherit;text-decoration:none}button{font:inherit}a:focus-visible,button:focus-visible{outline:3px solid var(--a);outline-offset:4px}.wrap{max-width:var(--max);margin:auto;padding:0 26px}header{position:sticky;top:0;z-index:10;background:#08111eea;backdrop-filter:blur(16px);border-bottom:1px solid #233751}.bar{min-height:74px;display:flex;align-items:center;justify-content:space-between;gap:22px}.brand{font-weight:800;letter-spacing:-.04em;font-size:1.2rem}.brand b{color:var(--a)}nav{display:flex;align-items:center;flex-wrap:wrap;gap:22px}nav a{font-size:.85rem;color:var(--sub)}nav a:hover{color:var(--a)}.langs{display:flex;gap:4px;border:1px solid var(--line);border-radius:100px;padding:4px}.langs button{border:0;background:transparent;color:var(--sub);padding:5px 9px;cursor:pointer;border-radius:30px;font-size:.75rem}.langs button.active{background:var(--a);color:#09202a;font-weight:800}.hero{position:relative;overflow:hidden;background:radial-gradient(ellipse at 76% 25%,#164e63 0%,transparent 47%),radial-gradient(ellipse at 12% 65%,#212f59 0%,transparent 40%)}.hero-content{min-height:630px;display:grid;grid-template-columns:1.15fr .85fr;gap:68px;align-items:center;padding-top:78px;padding-bottom:86px}.eyebrow{color:var(--a);font-weight:800;letter-spacing:.17em;font-size:.73rem;text-transform:uppercase}.hero h1{font-size:clamp(3rem,6vw,5.7rem);line-height:1.07;letter-spacing:-.065em;margin:22px 0}.hero h1 span{color:var(--a)}.lead{font-size:clamp(1.1rem,2vw,1.4rem);color:#d6e5f2;font-weight:650;line-height:1.5}.summary{max-width:610px;color:var(--sub);font-size:1rem;margin:21px 0 30px}.actions{display:flex;flex-wrap:wrap;gap:12px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:12px 20px;border-radius:10px;border:1px solid #46617e;cursor:pointer;font-weight:750;font-size:.88rem;background:transparent;color:var(--ink)}.btn.primary{background:var(--a);color:#08202a;border-color:var(--a)}.btn:hover{transform:translateY(-2px)}.portrait-shell{max-width:390px;margin:auto;aspect-ratio:4/4.6;padding:10px;border:1px solid #3c6b7d;border-radius:24px;box-shadow:0 35px 100px #0008;transform:rotate(2deg);background:linear-gradient(135deg,#20485a,#1b2b4a)}.portrait{border-radius:16px;width:100%;height:100%;object-fit:cover;background:#102539;display:block}.portrait-caption{position:absolute;bottom:-12px;right:0;background:#162d43;border:1px solid #46748b;padding:10px 20px;border-radius:10px;font-weight:750;color:var(--a);font-size:.86rem}section{padding:95px 0;scroll-margin-top:72px}.alt{background:#0c1829}.section-top{max-width:780px;margin-bottom:38px}.kicker{color:var(--a);font-size:.75rem;font-weight:800;letter-spacing:.15em;text-transform:uppercase}.section-top h2{font-size:clamp(2rem,4vw,3.3rem);letter-spacing:-.045em;line-height:1.19;margin:10px 0 16px}.section-top p{color:var(--sub);margin:0}.about-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:24px}.about-card,.card,.job,.degree{background:linear-gradient(150deg,#152740,#0e1c2e);border:1px solid var(--line);border-radius:16px;padding:28px}.about-card p{color:#c1d0dd}.chips{display:flex;flex-wrap:wrap;gap:9px}.chips span{border:1px solid #32506b;background:#14273c;color:#cee5ed;border-radius:100px;padding:6px 12px;font-size:.82rem}.stats{display:grid;grid-template-columns:1fr 1fr;gap:12px}.stat{padding:24px;background:#13263a;border:1px solid var(--line);border-radius:14px}.stat strong{display:block;font-size:2rem;color:var(--a);line-height:1.2}.stat span{font-size:.77rem;color:var(--sub)}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}.card .ico{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;background:#1d4a57;color:var(--a);font-weight:850;margin-bottom:18px}.card h3,.job h3{font-size:1.2rem;line-height:1.3;margin:0 0 10px}.card p,.job p,.degree p{color:var(--sub);font-size:.93rem}.tag{display:inline-block;color:var(--a);font-size:.73rem;font-weight:800;letter-spacing:.07em;margin-bottom:13px}.job-list{display:grid;gap:16px}.job{display:grid;grid-template-columns:190px 1fr;gap:23px}.when{color:var(--a);font-size:.88rem;font-weight:800}.company{font-size:.82rem;color:var(--sub);margin-top:5px}.job h3{margin-bottom:6px}.job p{margin:0}.degree{margin-bottom:18px}.degree h3{margin:0 0 8px;font-size:1.25rem}.degree b{color:var(--a)}.columns{display:grid;grid-template-columns:1fr 1fr;gap:25px}.contact-area{background:linear-gradient(130deg,#16424b,#12233c);padding:65px 0}.contact-inner{display:flex;align-items:center;justify-content:space-between;gap:25px}.contact-inner h2{font-size:2.4rem;line-height:1.2;letter-spacing:-.04em;margin:8px 0}.contact-inner p{color:#c4dbe3}footer{border-top:1px solid var(--line);color:var(--sub);padding:23px 0;font-size:.83rem}.foot{display:flex;justify-content:space-between;gap:16px}.foot b{color:var(--ink)}[dir=rtl] .hero h1{letter-spacing:0}[dir=rtl] .eyebrow,[dir=rtl] .kicker{letter-spacing:0}[dir=rtl] .job{text-align:right}[dir=rtl] .portrait-shell{transform:rotate(-2deg)}@media(max-width:900px){nav{display:none}.hero-content{gap:28px}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.about-grid{grid-template-columns:1fr}}@media(max-width:690px){.hero-content{grid-template-columns:1fr;min-height:0;padding-top:56px;padding-bottom:64px}.portrait-shell{width:75%;max-width:300px}.hero h1{font-size:3.5rem}.grid,.columns,.stats{grid-template-columns:1fr}.job{grid-template-columns:1fr;gap:8px}.contact-inner{display:block}.contact-inner .actions{margin-top:22px}section{padding:67px 0}.foot{flex-direction:column}}@media print{header,.actions,.langs,.portrait-caption{display:none!important}body{background:#fff;color:#122033;font-size:12px}.hero,.alt,.contact-area{background:#fff!important}section{padding:20px 0}.hero-content{min-height:0;padding:10px 0;grid-template-columns:2fr 1fr}.portrait-shell{max-width:150px;box-shadow:none}.hero h1{font-size:34px}.card,.job,.degree,.about-card,.stat{background:white;border-color:#ddd;break-inside:avoid;padding:13px}.section-top h2{font-size:22px}.summary,.section-top p,.about-card p,.card p,.job p,.degree p{color:#333}.eyebrow,.kicker,.when,.tag,.stat strong{color:#087a6e}.grid{gap:8px}a{color:#122033}}
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <h1>Mohamed Doghmosh</h1>
-    <div class="role">Technical Specialist — Electronics</div>
-    <div class="loc">Zoeterwoude, Netherlands</div>
-    <div class="contact">
-      <a href="mailto:mohamed@doghmosh.com">mohamed@doghmosh.com</a>
-      <a href="https://www.linkedin.com/in/mohamed-doghmosh-29ab22385" target="_blank">LinkedIn</a>
-    </div>
-  </header>
-
-  <section>
-    <h2>Profile</h2>
-    <p class="note">Nearly twenty years of experience in electronics and
-    communications engineering. As a technical director I handled the full
-    technical build-out of several radio stations — from equipment selection
-    and installation through to system integration. I enjoy tracing faults
-    carefully and I care that technology keeps running reliably. I now want
-    to bring that experience to a role as a technical specialist in
-    electronics in the Netherlands.</p>
-  </section>
-
-  <section>
-    <h2>Work Experience</h2>
-
-    <div class="job">
-      <h3>Technical Director (contract)</h3>
-      <div class="meta">Radio Al-Madina FM, Damascus, Syria · Dec 2004 – Jan 2024</div>
-      <ul>
-        <li>Led the technical build-out of the station, from equipment
-        selection and purchasing to installation and commissioning.</li>
-        <li>Integrated broadcast equipment, LAN networks and server
-        infrastructure.</li>
-        <li>Designed and built backup-power systems with UPS units and
-        generators.</li>
-      </ul>
-    </div>
-
-    <div class="job">
-      <h3>Technical Director (separate contracts)</h3>
-      <div class="meta">Radio MIX FM &amp; Rotana FM, Syria · Mar 2007 – Jan 2024</div>
-      <ul>
-        <li>Coordinated the technical setup and commissioning of both
-        stations.</li>
-        <li>Directed installation and system integration, and coordinated
-        the resolution of technical faults.</li>
-      </ul>
-    </div>
-
-    <div class="job">
-      <h3>General Supervisor</h3>
-      <div class="meta">Radio Sada, Damascus, Syria · Feb 2018 – Dec 2023</div>
-      <ul>
-        <li>Oversaw technical and operational work, reporting directly to
-        the general director.</li>
-        <li>Coordinated the technical delivery of television broadcasts with
-        audio and video via Nilesat.</li>
-      </ul>
-    </div>
-  </section>
-
-  <section>
-    <h2>Education</h2>
-    <div class="job">
-      <h3>Bachelor in Mechanical &amp; Electrical Engineering (Electronics &amp; Communications)</h3>
-      <div class="meta">University of Damascus, Syria · 1998–2003</div>
-      <ul>
-        <li>IDW credential evaluation (18 March 2025): comparable to a Dutch
-        WO bachelor in Technical Computer Science.</li>
-      </ul>
-    </div>
-  </section>
-
-  <section>
-    <h2>Technical Skills</h2>
-    <div class="skills">
-      <span>Electronics &amp; Communications</span>
-      <span>Installation &amp; Maintenance</span>
-      <span>Fault Analysis</span>
-      <span>System Integration</span>
-      <span>Broadcast Equipment</span>
-      <span>LAN &amp; Servers</span>
-      <span>UPS &amp; Generators</span>
-      <span>Technical Coordination</span>
-    </div>
-  </section>
-
-  <section>
-    <h2>Volunteering</h2>
-    <div class="job">
-      <h3>Technical Volunteer</h3>
-      <div class="meta">VluchtelingenWerk Nederland · Feb 2025 – present</div>
-      <ul><li>Technical maintenance and repairs within a school environment.</li></ul>
-    </div>
-  </section>
-
-  <section>
-    <h2>Personal Technical Projects</h2>
-    <p class="note">In my free time I work with ESP32, MikroTik RouterOS,
-    Home Assistant and Zigbee.</p>
-  </section>
-
-  <section>
-    <h2>Languages &amp; Interests</h2>
-    <p class="note"><strong>Languages:</strong> Arabic (native) · English
-    (good) · Dutch (currently taking language classes)</p>
-    <p class="note" style="margin-top:8px"><strong>Interests:</strong>
-    Rally sport, tennis, cycling and electronics.</p>
-  </section>
-
-  <footer>© 2026 Mohamed Doghmosh</footer>
-</div>
-</body>
-</html>
+<header><div class="wrap bar"><a class="brand" href="#home">Mohamed <b>Doghmosh.</b></a><nav aria-label="Sections"><a href="#about" data-i="navAbout">About</a><a href="#projects" data-i="navProjects">Projects</a><a href="#experience" data-i="navExperience">Experience</a><a href="#education" data-i="navEducation">Education</a><a href="#contact" data-i="navContact">Contact</a></nav><div class="langs"><button data-lang="en" class="active" aria-pressed="true">EN</button><button data-lang="nl" aria-pressed="false">NL</button><button data-lang="ar" aria-pressed="false">عربي</button></div></div></header>
+<div class="hero" id="home"><div class="wrap hero-content"><div><div class="eyebrow" data-i="eyebrow">ENGINEERING · NETWORKS · INNOVATION</div><h1>Mohamed <span>Doghmosh.</span></h1><div class="lead" data-i="role">Electronics & Communications Engineer<br>Broadcast, ICT & Systems Integration</div><p class="summary" data-i="heroSummary">I build, connect and maintain reliable technical systems — from broadcasting infrastructure to networks, Linux servers and smart automation.</p><div class="actions"><a class="btn primary" href="#projects" data-i="viewWork">Explore my projects ↗</a><button class="btn" onclick="window.print()" data-i="saveCV">Save CV as PDF ↓</button></div></div><div style="position:relative"><div class="portrait-shell"><img class="portrait" src="assets/profile.svg" alt="Profile image placeholder. Replace with your own photo as assets/profile.jpg" id="profilePhoto"><div class="portrait-caption">ENGINEERING × TECHNOLOGY</div></div></div></div></div>
+<main>
+<section id="about"><div class="wrap"><div class="section-top"><div class="kicker">01 / ABOUT ME</div><h2 data-i="aboutTitle">Technical experience. A builder's mindset.</h2><p data-i="aboutLead">A hands-on engineer with over two decades of experience across broadcasting, electronics, communication systems and infrastructure.</p></div><div class="about-grid"><div class="about-card"><p data-i="aboutBody">I studied electronics and communications engineering at Damascus University. My career has focused on establishing and maintaining broadcast facilities, integrating audio systems, LAN infrastructure, servers, UPS units and generators, and leading technical operations. In the Netherlands, I continue expanding my skills through practical electronics, self-hosted services and networking projects.</p><div class="chips"><span>Electronics</span><span>Broadcast Engineering</span><span>Networking</span><span>Linux & Docker</span><span>MikroTik</span><span>ESP32</span><span>Home Assistant</span><span>Zigbee</span></div></div><div class="stats"><div class="stat"><strong>20+</strong><span data-i="stat1">Years of technical experience</span></div><div class="stat"><strong>4</strong><span data-i="stat2">Broadcast organizations</span></div><div class="stat"><strong>WO</strong><span data-i="stat3">Dutch degree comparison</span></div><div class="stat"><strong>NL</strong><span data-i="stat4">Based in the Netherlands</span></div></div></div></div></section>
+<section id="projects" class="alt"><div class="wrap"><div class="section-top"><div class="kicker">02 / SELECTED PROJECTS</div><h2 data-i="projectsTitle">Projects & practical engineering</h2><p data-i="projectsLead">Real technical projects in networking, automation and infrastructure.</p></div><div class="grid" id="projectsGrid"></div></div></section>
+<section id="experience"><div class="wrap"><div class="section-top"><div class="kicker">03 / EXPERIENCE</div><h2 data-i="experienceTitle">Professional experience</h2><p data-i="experienceLead">Selected broadcast engineering and technical leadership roles. Some contracts were held concurrently.</p></div><div class="job-list" id="jobs"></div></div></section>
+<section id="education" class="alt"><div class="wrap"><div class="section-top"><div class="kicker">04 / EDUCATION</div><h2 data-i="educationTitle">Education & credentials</h2></div><div class="columns"><div><div class="degree"><div class="tag">1998 — 2003</div><h3 data-i="degreeTitle">Bachelor's in Electrical & Mechanical Engineering</h3><p data-i="degreeInfo">Electronics and Communications Engineering · Damascus University, Syria.</p></div><div class="degree"><div class="tag">18 MARCH 2025</div><h3 data-i="degreeCompare">Dutch diploma evaluation (IDW)</h3><p data-i="degreeText">Assessed as comparable to a Dutch WO bachelor's degree in Technical Computer Science.</p></div></div><div><div class="degree"><h3 data-i="skillsTitle">Technical skills</h3><div class="chips"><span>LAN / TCP-IP</span><span>RouterOS / VLAN</span><span>WireGuard</span><span>Linux / Debian</span><span>Docker</span><span>RF / Broadcasting</span><span>UPS / Backup power</span><span>Electronics / I²C</span><span>ESPHome</span><span>MQTT</span></div></div><div class="degree"><h3 data-i="languagesTitle">Languages</h3><p data-i="languagesText">Arabic (native) · English (very good) · Dutch (learning / intermediate)</p><h3 data-i="volunteerTitle">Volunteering</h3><p data-i="volunteerText">Technical volunteer, VluchtelingenWerk Nederland · Since February 2025. Maintenance and repairs in an educational environment.</p></div></div></div></div></section>
+</main>
+<section class="contact-area" id="contact"><div class="wrap contact-inner"><div><div class="kicker" data-i="contactSmall">LET'S CONNECT</div><h2 data-i="contactTitle">Let's build something reliable.</h2><p data-i="contactText">Open to conversations about electronics, ICT infrastructure, system integration and technical operations.</p></div><div class="actions"><a class="btn primary" href="mailto:mohamed@doghmosh.com">mohamed@doghmosh.com ↗</a><a class="btn" href="https://www.linkedin.com/in/mohamed-doghmosh-29ab22385/" rel="noopener noreferrer" target="_blank">LinkedIn ↗</a></div></div></section>
+<footer><div class="wrap foot"><span><b>Mohamed Doghmosh</b> · <span data-i="footer">Engineering & technology portfolio.</span></span><span>© <span id="year"></span> · doghmosh.com</span></div></footer>
+<script>
+// To show your actual picture, add assets/profile.jpg to the repository.
+// If you don't have a picture yet, the default initials illustration remains visible.
+const photo = new Image(); photo.onload=()=>document.getElementById('profilePhoto').src='assets/profile.jpg'; photo.src='assets/profile.jpg';
+const commonProjects=[['NETWORKING','MikroTik & VLAN Lab','RouterOS configuration, routed VLANs, WireGuard, mDNS testing and network segmentation.','⌘'],['HOME AUTOMATION','ESP32 & Home Assistant','Custom ESPHome devices, Zigbee relays, smart ventilation controls and DIY wireless electronics.','⌁'],['INFRASTRUCTURE','Debian Home Server','Docker services, reverse proxy, local DNS, self-hosted password manager and secure LAN access.','▣'],['RF / EMBEDDED','868 MHz RF Remote Integration','ESP32-C3 with CC1101 radio module to receive and analyze ventilation remote signals.','◉'],['ZIGBEE','ESP32-C6 Zigbee Relays','Multi-endpoint Zigbee controls with I²C GPIO expanders, integrated with Zigbee2MQTT.','◇'],['BROADCAST','Broadcast Systems Integration','Broadcast studio infrastructure, LAN servers and resilient UPS/generator systems for continuity.','▥']];
+const projectsNL=[['NETWERKEN','MikroTik & VLAN-lab','RouterOS-configuratie, VLAN-routing, WireGuard, mDNS-tests en netwerksegmentatie.','⌘'],['DOMOTICA','ESP32 & Home Assistant','Eigen ESPHome-apparaten, Zigbee-relais, slimme ventilatieregeling en draadloze elektronica.','⌁'],['INFRASTRUCTUUR','Debian-homeserver','Docker-services, reverse proxy, lokale DNS, wachtwoordbeheer en beveiligde LAN-toegang.','▣'],['RF / EMBEDDED','868 MHz RF-afstandsbediening','ESP32-C3 met CC1101-module om signalen van een ventilatieafstandsbediening te ontvangen en analyseren.','◉'],['ZIGBEE','ESP32-C6 Zigbee-relais','Zigbee-bediening met meerdere endpoints en I²C-poortexpanders via Zigbee2MQTT.','◇'],['OMROEPTECHNIEK','Integratie van omroepsystemen','Studio-infrastructuur, LAN-servers en UPS-/generatorsystemen voor bedrijfscontinuïteit.','▥']];
+const projectsAR=[['الشبكات','مختبر MikroTik و VLAN','إعداد RouterOS وشبكات VLAN وWireGuard وتجارب mDNS وعزل الشبكات.','⌘'],['المنزل الذكي','ESP32 وHome Assistant','تطوير أجهزة ESPHome وريليه Zigbee والتحكم بالتهوية والإلكترونيات اللاسلكية.','⌁'],['الخوادم','خادم Debian المنزلي','خدمات Docker وReverse Proxy وDNS محلي وإدارة كلمات المرور والوصول الآمن.','▣'],['الاتصالات اللاسلكية','وحدة تحكم لاسلكية 868 MHz','استخدام ESP32-C3 مع CC1101 لاستقبال وتحليل إشارات ريموت التهوية.','◉'],['ZIGBEE','وحدات ريليه ESP32-C6','تحكم Zigbee متعدد الأطراف مع موسّعات I²C وZigbee2MQTT.','◇'],['البث الإذاعي','تكامل أنظمة البث','تجهيز استوديوهات البث والشبكات والخوادم وأنظمة UPS والمولدات.','▥']];
+const jobsEN=[['Dec 2004 – Jan 2024','Technical Director (contract)','Radio Al-Madina FM · Damascus, Syria','Led the technical establishment of the station, from equipment selection to commissioning. Integrated broadcast equipment, LAN/server infrastructure, UPS and generators.'],['Mar 2007 – Jan 2024','Technical Director / Projects (contracts)','Radio MIX FM & Rotana FM · Syria','Coordinated technical installation, commissioning, system integration and troubleshooting for broadcasting facilities.'],['Feb 2018 – Dec 2023','General Supervisor','Radio Sada · Damascus, Syria','Oversaw technical and operational activities and coordinated television broadcasting infrastructure, including audio/video via Nilesat.'],['Feb 2025 – Present','Technical Volunteer','VluchtelingenWerk Nederland · Netherlands','Technical maintenance and repairs in an educational environment.']];
+const jobsNL=[['dec 2004 – jan 2024','Technisch directeur (contract)','Radio Al-Madina FM · Damascus, Syrië','Leidde de technische opbouw van de zender, van apparatuurselectie tot ingebruikname. Integreerde omroepapparatuur, LAN-/serverinfrastructuur, UPS-systemen en generatoren.'],['mrt 2007 – jan 2024','Technisch directeur / projecten (contracten)','Radio MIX FM & Rotana FM · Syrië','Coördineerde de installatie, systeemintegratie, ingebruikname en het oplossen van storingen in omroepinstallaties.'],['feb 2018 – dec 2023','Algemeen supervisor','Radio Sada · Damascus, Syrië','Hield toezicht op de technische en operationele werkzaamheden en coördineerde televisie-uitzendingen met audio/video via Nilesat.'],['feb 2025 – heden','Technisch vrijwilliger','VluchtelingenWerk Nederland · Nederland','Technisch onderhoud en reparaties binnen een schoolomgeving.']];
+const jobsAR=[['ديسمبر 2004 – يناير 2024','المدير التقني (عقد)','إذاعة المدينة FM · دمشق، سوريا','إدارة تأسيس وتجهيز المحطة تقنياً من اختيار الأجهزة إلى التشغيل، وربط أنظمة البث والشبكات والخوادم وأنظمة UPS والمولدات.'],['مارس 2007 – يناير 2024','مدير تقني / مشاريع (عقود)','إذاعة MIX FM وRotana FM · سوريا','الإشراف على التركيبات التقنية وتشغيل الأنظمة ودمج المعدات وحل الأعطال في منشآت البث.'],['فبراير 2018 – ديسمبر 2023','مشرف عام','إذاعة صدى · دمشق، سوريا','الإشراف على العمليات التقنية والتشغيلية وتنسيق تجهيز البث التلفزيوني صوتاً وصورة عبر نايل سات.'],['فبراير 2025 – حتى الآن','متطوع تقني','VluchtelingenWerk Nederland · هولندا','أعمال الصيانة التقنية والإصلاح في بيئة تعليمية.']];
+const strings={
+en:{navAbout:'About',navProjects:'Projects',navExperience:'Experience',navEducation:'Education',navContact:'Contact',eyebrow:'ENGINEERING · NETWORKS · INNOVATION',role:'Electronics & Communications Engineer<br>Broadcast, ICT & Systems Integration',heroSummary:'I build, connect and maintain reliable technical systems — from broadcasting infrastructure to networks, Linux servers and smart automation.',viewWork:'Explore my projects ↗',saveCV:'Save CV as PDF ↓',aboutTitle:"Technical experience. A builder’s mindset.",aboutLead:'A hands-on engineer with over two decades of experience across broadcasting, electronics, communication systems and infrastructure.',aboutBody:'I studied electronics and communications engineering at Damascus University. My career has focused on establishing and maintaining broadcast facilities, integrating audio systems, LAN infrastructure, servers, UPS units and generators, and leading technical operations. In the Netherlands, I continue expanding my skills through practical electronics, self-hosted services and networking projects.',stat1:'Years of technical experience',stat2:'Broadcast organizations',stat3:'Dutch degree comparison',stat4:'Based in the Netherlands',projectsTitle:'Projects & practical engineering',projectsLead:'Real technical projects in networking, automation and infrastructure.',experienceTitle:'Professional experience',experienceLead:'Selected broadcast engineering and technical leadership roles. Some contracts were held concurrently.',educationTitle:'Education & credentials',degreeTitle:"Bachelor’s in Electrical & Mechanical Engineering",degreeInfo:'Electronics and Communications Engineering · Damascus University, Syria.',degreeCompare:'Dutch diploma evaluation (IDW)',degreeText:"Assessed as comparable to a Dutch WO bachelor's degree in Technical Computer Science.",skillsTitle:'Technical skills',languagesTitle:'Languages',languagesText:'Arabic (native) · English (very good) · Dutch (learning / intermediate)',volunteerTitle:'Volunteering',volunteerText:'Technical volunteer, VluchtelingenWerk Nederland · Since February 2025. Maintenance and repairs in an educational environment.',contactSmall:"LET'S CONNECT",contactTitle:"Let's build something reliable.",contactText:'Open to conversations about electronics, ICT infrastructure, system integration and technical operations.',footer:'Engineering & technology portfolio.',projects:commonProjects,jobs:jobsEN},
+nl:{navAbout:'Over mij',navProjects:'Projecten',navExperience:'Ervaring',navEducation:'Opleiding',navContact:'Contact',eyebrow:'TECHNIEK · NETWERKEN · INNOVATIE',role:'Ingenieur elektronica & communicatie<br>Omroeptechniek, ICT & systeemintegratie',heroSummary:'Ik bouw, verbind en onderhoud betrouwbare technische systemen — van omroepinfrastructuur tot netwerken, Linux-servers en slimme automatisering.',viewWork:'Bekijk mijn projecten ↗',saveCV:'CV opslaan als PDF ↓',aboutTitle:'Technische ervaring. Altijd blijven bouwen.',aboutLead:'Praktijkgerichte ingenieur met meer dan twintig jaar ervaring in omroeptechniek, elektronica, communicatie en infrastructuur.',aboutBody:'Ik studeerde elektronica en communicatietechniek aan de Universiteit van Damascus. Mijn werk richtte zich op het opbouwen en onderhouden van omroepfaciliteiten, de integratie van audiosystemen, LAN-netwerken, servers, UPS-systemen en generatoren, en technische leiding. In Nederland ontwikkel ik mij verder met elektronica, eigen servers en netwerkprojecten.',stat1:'Jaar technische ervaring',stat2:'Omroeporganisaties',stat3:'Nederlandse diplomawaardering',stat4:'Gevestigd in Nederland',projectsTitle:'Projecten & techniek in de praktijk',projectsLead:'Praktische projecten in netwerken, automatisering en infrastructuur.',experienceTitle:'Werkervaring',experienceLead:'Functies in omroeptechniek en technische leiding. Sommige contracten liepen gelijktijdig.',educationTitle:'Opleiding & diploma’s',degreeTitle:'Bachelor werktuigbouwkunde en elektrotechniek',degreeInfo:'Specialisatie elektronica en communicatietechniek · Universiteit van Damascus, Syrië.',degreeCompare:'IDW-diplomawaardering',degreeText:'Vergelijkbaar met een Nederlandse WO-bachelor Technische Informatica.',skillsTitle:'Technische vaardigheden',languagesTitle:'Talen',languagesText:'Arabisch (moedertaal) · Engels (zeer goed) · Nederlands (in ontwikkeling / gemiddeld)',volunteerTitle:'Vrijwilligerswerk',volunteerText:'Technisch vrijwilliger, VluchtelingenWerk Nederland · Sinds februari 2025. Onderhoud en reparaties in een schoolomgeving.',contactSmall:'CONTACT',contactTitle:'Samen betrouwbare techniek realiseren.',contactText:'Beschikbaar voor gesprekken over elektronica, ICT-infrastructuur, systeemintegratie en technische werkzaamheden.',footer:'Portfolio techniek & innovatie.',projects:projectsNL,jobs:jobsNL},
+ar:{navAbout:'نبذة عني',navProjects:'مشاريعي',navExperience:'الخبرة',navEducation:'التعليم',navContact:'تواصل',eyebrow:'الهندسة · الشبكات · الابتكار',role:'مهندس إلكترونيات واتصالات<br>هندسة البث والبنية التحتية وتكامل الأنظمة',heroSummary:'أعمل على بناء وربط وصيانة الأنظمة التقنية الموثوقة، من تجهيزات البث إلى الشبكات وخوادم Linux وأتمتة المنزل الذكي.',viewWork:'استعرض مشاريعي ↗',saveCV:'حفظ السيرة PDF ↓',aboutTitle:'خبرة تقنية وشغف دائم بالتطوير.',aboutLead:'مهندس بخبرة عملية تتجاوز عشرين عاماً في البث والإلكترونيات والاتصالات والبنية التحتية.',aboutBody:'درست هندسة الإلكترونيات والاتصالات في جامعة دمشق. عملت في تأسيس محطات البث وصيانة تجهيزاتها وربط الأنظمة الصوتية والشبكات والخوادم وأنظمة UPS والمولدات، إلى جانب إدارة العمليات التقنية. وفي هولندا أواصل تطوير خبراتي عبر مشاريع الإلكترونيات والخوادم المنزلية والشبكات.',stat1:'سنة خبرة تقنية',stat2:'مؤسسات إذاعية',stat3:'تقييم الشهادة الهولندية',stat4:'الإقامة في هولندا',projectsTitle:'مشاريع هندسية وتقنية',projectsLead:'مشاريع عملية في الشبكات والأتمتة والبنية التحتية.',experienceTitle:'الخبرة المهنية',experienceLead:'أبرز المناصب في هندسة البث والإدارة التقنية، وبعض العقود كانت متزامنة.',educationTitle:'الدراسة والشهادات',degreeTitle:'بكالوريوس الهندسة الكهربائية والميكانيكية',degreeInfo:'اختصاص الإلكترونيات والاتصالات · جامعة دمشق، سوريا.',degreeCompare:'تقييم الشهادة الهولندية IDW',degreeText:'معادلة من حيث المستوى لبكالوريوس جامعي هولندي WO في المعلوماتية التقنية.',skillsTitle:'المهارات التقنية',languagesTitle:'اللغات',languagesText:'العربية (الأم) · الإنجليزية (جيدة جداً) · الهولندية (قيد التطوير / متوسطة)',volunteerTitle:'العمل التطوعي',volunteerText:'متطوع تقني في VluchtelingenWerk Nederland منذ فبراير 2025، بأعمال صيانة وإصلاح في بيئة تعليمية.',contactSmall:'للتواصل',contactTitle:'لنبنِ أنظمة تقنية موثوقة.',contactText:'يسعدني التواصل حول الإلكترونيات والشبكات وتكامل الأنظمة والعمليات التقنية.',footer:'ملف أعمال الهندسة والتقنية.',projects:projectsAR,jobs:jobsAR}};
+function el(tag,cls,txt){const x=document.createElement(tag);if(cls)x.className=cls;if(txt!==undefined)x.textContent=txt;return x}
+function setLanguage(lang){const d=strings[lang]||strings.en;document.documentElement.lang=lang;document.documentElement.dir=lang==='ar'?'rtl':'ltr';document.querySelectorAll('[data-lang]').forEach(b=>{const yes=b.dataset.lang===lang;b.classList.toggle('active',yes);b.setAttribute('aria-pressed',String(yes))});document.querySelectorAll('[data-i]').forEach(e=>{const key=e.dataset.i;if(d[key]!==undefined)e.innerHTML=d[key]});const pg=document.getElementById('projectsGrid');pg.replaceChildren();d.projects.forEach(p=>{const c=el('article','card');c.append(el('div','ico',p[3]),el('div','tag',p[0]),el('h3','',p[1]),el('p','',p[2]));pg.append(c)});const j=document.getElementById('jobs');j.replaceChildren();d.jobs.forEach(v=>{const c=el('article','job'),left=el('div'),right=el('div');left.append(el('div','when',v[0]),el('div','company',v[2]));right.append(el('h3','',v[1]),el('p','',v[3]));c.append(left,right);j.append(c)});try{localStorage.setItem('portfolio_lang',lang)}catch(e){}}
+document.querySelectorAll('[data-lang]').forEach(b=>b.addEventListener('click',()=>setLanguage(b.dataset.lang)));document.getElementById('year').textContent=new Date().getFullYear();let saved='en';try{saved=localStorage.getItem('portfolio_lang')||'en'}catch(e){}setLanguage(strings[saved]?saved:'en');
+</script>
+</body></html>
